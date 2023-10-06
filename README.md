@@ -11,4 +11,9 @@ y eliminar el nodo sin nodos hijos.<br>
 Por lo cual esta característica es decisiva de su ligera ineficiencia<br>
 frente al Heapsort original, el cual gracias al uso de indices nos proporciona operaciones O(1) es decir<br>
 de tiempo constante<br>
-
+## Detalles ante problemas de compilación
+En caso tener problemas con "maven", ingrese a pom.xml<br>
+Ahí podrá cambiar la version de maven con la que trabaje  actualmente<br>
+### Referencia:
+```<maven.compiler.source>17</maven.compiler.source>
+<maven.compiler.target>17</maven.compiler.target>```
