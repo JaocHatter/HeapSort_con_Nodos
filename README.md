@@ -17,7 +17,7 @@ frente al Heapsort original, el cual gracias al uso de indices nos proporciona o
 de tiempo constante<br>
 ## Detalles ante problemas de compilación
 En caso tener problemas con "maven", ingrese a pom.xml<br>
-Ahí podrá cambiar la version de maven con la que trabaje  actualmente<br>
+Ahí podrá cambiar la version de java con la que trabaje  actualmente<br>
 ### Referencia:
 En mi caso, uso la version 17, intente con la version 19.<br>
 
