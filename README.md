@@ -15,5 +15,6 @@ de tiempo constante<br>
 En caso tener problemas con "maven", ingrese a pom.xml<br>
 Ahí podrá cambiar la version de maven con la que trabaje  actualmente<br>
 ### Referencia:
-```<maven.compiler.source>17</maven.compiler.source>
-<maven.compiler.target>17</maven.compiler.target>```
+En mi caso, uso la version 17, intente con la version 19.<br>
+```<maven.compiler.source>17</maven.compiler.source>```
+```<maven.compiler.target>17</maven.compiler.target>```
