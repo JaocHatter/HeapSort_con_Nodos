@@ -17,5 +17,5 @@ Ahí podrá cambiar la version de maven con la que trabaje  actualmente<br>
 ### Referencia:
 En mi caso, uso la version 17, intente con la version 19.<br>
 
-<maven.compiler.source>17</maven.compiler.source>
+<maven.compiler.source>17</maven.compiler.source><br>
 <maven.compiler.target>17</maven.compiler.target>
