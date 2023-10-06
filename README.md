@@ -3,6 +3,10 @@ Tarea#2 del Curso de algoritmos y estructuraas de datos<br>
 ## Contenido
 El proyecto presenta multiples Interfaces de ordanamiento y Estructuras de datos como listas enlazadas<br>
 En ellas se encuentra el algoritmo de Heapsort implentado solamente usando "DNodos" (Nodos de listas doblemente enlazadas)<br>
+Para ver el funcionamiento de este algoritmo solo basta de dirigirse al JMenu "Linked List", presionar "Heap Sort With Nodes"<br>
+y ya habrás ingresado a la interfaz correspondiente<br>
+![image](https://github.com/JaocHatter/HeapSort_con_Nodos/assets/112034917/3beaf5d8-cd45-4929-bba2-951a4c8c510c)
+
 ## Observaciones
 El algoritmo posee una complejidad temporal muy parecida a la de Heapsort<br>
 la diferencia se encuentra en la iteración final, en la cual se realizan busqueda de tiempo O(log(n))<br>
