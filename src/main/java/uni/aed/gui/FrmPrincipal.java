@@ -30,11 +30,13 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jMenu1 = new javax.swing.JMenu();
         mDataSimple = new javax.swing.JMenuItem();
         mDataObject = new javax.swing.JMenuItem();
+        BinarySearch = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
         mSimpleLinkedList = new javax.swing.JMenuItem();
         jMenuItem1 = new javax.swing.JMenuItem();
         jMenu3 = new javax.swing.JMenu();
         mBinaryTrees = new javax.swing.JMenuItem();
+        jMenu4 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -55,6 +57,14 @@ public class FrmPrincipal extends javax.swing.JFrame {
             }
         });
         jMenu1.add(mDataObject);
+
+        BinarySearch.setText("BinarySearch");
+        BinarySearch.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BinarySearchActionPerformed(evt);
+            }
+        });
+        jMenu1.add(BinarySearch);
 
         jMenuBar1.add(jMenu1);
 
@@ -90,6 +100,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jMenu3.add(mBinaryTrees);
 
         jMenuBar1.add(jMenu3);
+        jMenuBar1.add(jMenu4);
 
         setJMenuBar(jMenuBar1);
 
@@ -107,7 +118,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
-
+    
     private void mDataObjectActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mDataObjectActionPerformed
         // TODO add your handling code here:
         FrmDirectorio v=new FrmDirectorio();
@@ -137,6 +148,12 @@ public class FrmPrincipal extends javax.swing.JFrame {
         FrmSortNodes v = new FrmSortNodes();
         v.setVisible(true);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
+
+    private void BinarySearchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BinarySearchActionPerformed
+        // TODO add your handling code here:
+        FrmBinarySearch v = new FrmBinarySearch();
+        v.setVisible(true);
+    }//GEN-LAST:event_BinarySearchActionPerformed
 
     /**
      * @param args the command line arguments
@@ -174,9 +191,11 @@ public class FrmPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JMenuItem BinarySearch;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu3;
+    private javax.swing.JMenu jMenu4;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem mBinaryTrees;

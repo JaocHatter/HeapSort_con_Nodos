@@ -358,7 +358,6 @@ public class FrmDirectorio extends javax.swing.JFrame {
         modeloList2.removeAllElements();
         for(Persona p: sortedList)
             modeloList2.addElement(p.toString());
-        
     }//GEN-LAST:event_btnOrdenarActionPerformed
 
     private void rbNombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rbNombreActionPerformed
